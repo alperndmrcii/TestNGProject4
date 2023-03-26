@@ -1,0 +1,25 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="1">
+    <test name="Test1">
+        <parameter name="mail" value="Groupp08@gmail.com"></parameter>
+        <parameter name="browserTipi" value="chrome"></parameter>
+
+        <classes>
+            <class name="Testlerim.Tests"></class>
+        </classes>
+
+    </test>
+
+    <test name="Test2">
+        <parameter name="mail" value="Group08@gmail.com"></parameter>
+        <parameter name="browserTipi" value="firefox"></parameter>
+
+        <classes>
+            <class name="Testlerim.Tests"></class>
+        </classes>
+
+    </test>
+
+
+</suite>
